@@ -1,0 +1,105 @@
+body {
+    background-color: grey;
+    font-family: monospace;
+    font-size: x-large;
+    color: white;
+}
+
+p { color: white;
+}
+
+#game {
+    position: relative;
+    width: 780px;
+    height: 800px;
+    margin: auto;
+}
+
+#controls {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
+
+#controls p {
+    font-size: large;
+    margin-top: -25px;
+}
+
+#controls h4 {
+    margin-top: 15px; 
+}
+
+#held-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 470px;
+    left: 33px;
+    width: 115px;
+    height: auto;
+    text-align: center;
+    color: black;
+}
+
+#scoreboard h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: red;
+}
+
+#score,
+#lines-cleared,
+#level {
+    width: 115px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    text-align: right;
+    color: red;
+}
+
+p {
+    margin: 0;
+    padding-top: 3px;
+    padding-right: 10px;
+    font: 30px monospace;
+    align-items: center;
+    color: blue;
+}
+
+#grid-box {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    width: 400px;
+    height: 800px;
+
+}
+
+#next-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+#p-box {
+    position: relative;
+    width: 180px;
+    height: auto;
+    left: 5px;
+    top: 300px;
+    text-align: center;
+}

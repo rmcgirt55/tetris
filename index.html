@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="game">
+        <div id="held-box">
+            <h2>HELD PIECE</h2>
+            <canvas id="held-piece" width="180px" height="180px"></canvas>
+        </div>
+
+        <div id="p-box">
+            <p id="menu-btns">
+                Press <b>R</b> to <b>Restart</b><br>
+                Press <b>P</b> to <b>Pause</b>
+            </p>
+        </div>
+        
+        <div id="scoreboard">
+            <h2>SCORE</h2>
+            <div id="score">
+                <p id="score-ctr">0</p>
+            </div>
+            <h2>LINES CLEARED</h2>
+            <div id="lines-cleared">
+                <p id="lines-ctr">0</p>
+            </div>
+            <h2>LEVEL</h2>
+            <div id="level">
+                <p id="level-ctr">1<p>
+            </div>
+        </div>
+        <div id="grid-box">
+            <canvas id="grid" width="400px" height="800px"></canvas>
+        </div>
+        <div id="next-box">
+            <h2>NEXT PIECE</h2>
+            <canvas id="next-piece" width="180px" height="180px"></canvas>
+        </div>
+        <div id="logo-box">
+            <canvas id="logo" width="0px" height="0px"></canvas>
+        </div>
+        
+    </div>
+    <div id="controls">
+        <h4>How To Play:</h4>
+        <p>
+            Arrow Keys for Left, Right, and Down<br>
+            'Z' and 'X' to Rotate Counterclockwise and Clockwise respectively<br>
+            'C' to Hold a Piece<br>
+            Up Arrow Key to Hard Drop
+        </p>
+    </div>
+
+    <script src="./constants.js"></script>
+    <script src="./piece.js"></script>
+    <script src="./game.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
