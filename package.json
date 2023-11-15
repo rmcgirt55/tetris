@@ -1,0 +1,26 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "tetris",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmcgirt55/tetris.git"
+  },
+  "keywords": [
+    "tetris"
+  ],
+  "author": "Richard McGirt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmcgirt55/tetris/issues"
+  },
+  "homepage": "https://github.com/rmcgirt55/tetris#readme"
+}
