@@ -1,3 +1,54 @@
+# Tetris by Richard McGirt
+
+## Description
+
+Welcome to Tetris by Richard McGirt! This classic puzzle game brings the nostalgic challenge of arranging falling blocks to create solid lines. With intuitive controls and a captivating user interface, Tetris promises an enjoyable gaming experience.
+
+![Tetris Demo GIF](demo.gif)
+*GIF showcasing Tetris gameplay*
+
+## Demo
+
+Check out the live demo of the game hosted [here](link_to_demo), where you can experience the thrill of Tetris firsthand!
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+## Technical Information
+
+### Installation
+To set up the project locally:
+1. Clone this repository: `git clone https://github.com/RichardMcGirt/TetrisApp.git`
+2. Open the `index.html` file in your preferred web browser.
+
+### Contribution Guidelines
+Thank you for considering contributing to Tetris! Please follow these steps:
+- Fork the repository
+- Create a new branch (`git checkout -b feature/awesome-new-feature`)
+- Make your changes
+- Commit your changes (`git commit -m 'Add feature'`)
+- Push to the branch (`git push origin feature/awesome-new-feature`)
+- Create a Pull Request
+
+### Issues
+Current known issues include occasional block misalignment during gameplay. Additionally, we plan to introduce level-based challenges, implement a player score-board, and optimize for mobile screens in future updates.
+
+## Changelog
+
+### [1.0.0] - 2023-11-18
+- Initial release of Tetris by Richard McGirt
+
+## API Documentation
+
+Currently, Tetris does not have exposed APIs. Future updates may include APIs for high scores, game statistics, and user profiles.
+
+
+**Please feel free to explore, contribute, and enjoy playing Tetris by Richard McGirt!**
+
+
 # TETRIS
 
 ## How To Play:
